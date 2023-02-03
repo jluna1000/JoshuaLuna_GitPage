@@ -1,0 +1,212 @@
+body{
+    background-image: url(MotelRoom.jpg);
+    height: 100vh;
+    background-size:Cover;
+    background-position: Center;
+}
+
+.login-page{
+    width:360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7, 189, 195, 0.8);
+    max-width: 360px;
+    margin:0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family:"Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family:"Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding:15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+    
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a {
+    color:  black;
+    text-decoration: none;
+}
+/*line below this hides register form */
+.form .register-form {
+    display:none;
+}
+/*testing below code: succesfully modifies th e nav bar and title @ indedx 4 page*/
+.light-grey {
+    background-color: goldenrod;
+}
+.center{
+    text-align:center;
+}
+/* Header */
+#header {
+    padding: 20px;
+    margin-bottom:10px;
+  }
+
+  /* Inline Navigation */
+  #nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom:10px;
+  }
+  
+  #nav a { padding: 0 10px;}/*Added after initial html css layount*/
+/* above css is for index 4 page header*/
+/*below css is for contact 4 page contact form*/
+.contact-box{
+    margin:0;
+    padding:0;
+    background-color:rgba(7, 189, 195, 0.8);
+    box-shadow: 0 0 20px 0 #999;
+    font-family: sans-serif;
+    width:500px;
+    top:60%;/*was 50% before but blocked nav */
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;    
+}
+
+#form4 {
+    margin: 35px;
+}
+.input-field4 {
+    width:400;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #777;
+    border-radius:14px;
+    outline: none;
+}
+.textarea-field {
+    height:150px;
+    padding-top:10px;
+}
+.btn {
+    border-radius:20px;
+    color: #fff;
+    margin-top:18px;padding: 10px;
+    background-color:#47c35a;
+    font-size: 12px;
+    border: none;
+    cursor:pointer;
+}
+
+/*css below is for the service page*/
+/* Set the background color to dark grey */
+body {
+    background-color: blue;
+  }
+
+  /* Light grey color for the divs */
+  .light-grey {
+    background-color: goldenrod;
+  }
+
+  /* Center text */
+  .center {
+    text-align: center;
+  }
+
+  /* Header */
+  #header {
+    padding: 20px;
+    margin-bottom:10px;
+  }
+
+  /* Inline Navigation */
+  #nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom:10px;
+  }
+  
+  #nav a { padding: 0 10px;}/*Added after initial html css layount*/
+
+  /* Body */
+  #body {
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+    min-height: 600px;/* line added after initial htlm css layout*/
+  }
+  /*added jan 27*/
+  #slider {
+  width: 100%;
+  height: 100%;
+  }
+  
+  /*parent div Added after initial html css layout*/
+  #parent {
+width: 100%;
+}
+
+.child {
+width: 49%;
+min-height:450px;/*was height: 100px; now set to min-height of X px*/
+}
+
+#child1 {
+background-color: aqua;
+float: left;
+/*added jan 27*/
+display: flex;
+align-items: center; /* centers elements vertically */
+justify-content: center; /* centers elements horizontally */
+height: 450px; /* adjust to desired value */
+border: 2px solid black; 
+}
+
+#child2 {
+background-color: navy;
+float: right;
+/*Added jan 27 below 2 lines of code*/
+background-image: url("image1.jpg");
+transition: background-image 1s ease;
+border: 2px solid black;
+
+}
+
+
+  /* Footer */
+  #footer {
+    padding: 20px;
+  }
